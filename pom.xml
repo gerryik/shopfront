@@ -57,11 +57,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>sp.sd</groupId>
-            <artifactId>nexus-artifact-uploader</artifactId>
-            <version>2.14</version>
-        </dependency>
+
     </dependencies>
 
     <build>
@@ -74,6 +70,11 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
+            </plugin> 
+            <plugin>
+                <groupId>sp.sd</groupId>
+                <artifactId>nexus-artifact-uploader</artifactId>
+                <version>2.14</version>
             </plugin>
         </plugins>
 
